@@ -5,5 +5,5 @@ def my_collect(array)
     temp<< yield(array[i])
     i+=1
   end
-  array
+  temp
 end
